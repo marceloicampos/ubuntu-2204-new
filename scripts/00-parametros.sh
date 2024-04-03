@@ -9,7 +9,7 @@
 # Github: https://github.com/vaamonde
 # Data de criação: 10/10/2021
 # Data de atualização: 03/04/2024
-# Versão: 1.02
+# Versão: 1.03
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 #
 # Parâmetros (variáveis de ambiente) utilizados nos scripts de instalação dos Serviços de Rede
@@ -50,19 +50,19 @@ export DEBIAN_FRONTEND="noninteractive"
 # Declarando as variáveis utilizadas nas configurações de Rede do Servidor Ubuntu 
 #
 # Variável do Usuário padrão utilizado no Servidor Ubuntu desse curso
-USUARIODEFAULT="ts150user"
+USUARIODEFAULT="ts150mic"
 #
 # Variável da Senha padrão utilizado no Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-SENHADEFAULT="pti@2024"
-# NOTA: SENHA PARA USO ACADÊMICO
+SENHADEFAULT="mic@2024"
+# NOTA: SENHA EXCLUSIVA PARA USO ACADÊMICO
 #
 # Variável do Nome (Hostname) do Servidor Ubuntu desse curso
-NOMESERVER="ts150server"
+NOMESERVER="ts150script"
 #
 # Variável do Nome de Domínio do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-DOMINIOSERVER="pti.local"
+DOMINIOSERVER="mic.local"
 #
 # Variável do Nome de Domínio NetBIOS do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
